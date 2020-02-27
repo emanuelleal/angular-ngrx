@@ -1,0 +1,9 @@
+<div style="align-items: center;">
+  <h1>Counter: {{ (counter$ | async).counter }}</h1>
+  <button (click)="increment()">Increment</button>
+  <button (click)="decrement()">Decrement</button>
+
+  <hr>
+
+  <app-navbar></app-navbar>
+</div>
